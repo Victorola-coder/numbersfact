@@ -26,7 +26,9 @@ module.exports = {
     ],
   },
   devServer: {
-    static: "dist",
-    watchContentBase: true,
+    static: path.resolve(__dirname, "src"),
+    port: 8080,
+    open: true,
+    hot: true,
   },
 };
