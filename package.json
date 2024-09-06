@@ -1,28 +1,15 @@
 {
   "name": "numbersfact",
-  "version": "1.0.0",
-  "description": "Trying out the number API, would add  more features later",
-  "main": "script.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve  --mode=development --open",
-    "build": "echo 'Building webpack dist folder' && rm -rf dist && webpack --mode production --env production"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
-    "babel-loader": "^9.1.3",
-    "css-loader": "^7.1.2",
-    "postcss": "^8.4.45",
-    "postcss-loader": "^8.1.1",
-    "postcss-preset-env": "^10.0.2",
-    "style-loader": "^4.0.0",
     "tailwindcss": "^3.4.10",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "vite": "^5.4.1"
   }
 }
