@@ -21,9 +21,11 @@
     />
   </head>
   <body
-    class="bg-[#f5f5f5]_ w-full w-xl m`x-auto bg- flex flex-col items-center justify-center min-h-[100dvh] rounded w-full"
+    class="bg-[#f5f5f5] mx-auto bg- flex flex-col items-center justify-center min-h-[100dvh] rounded"
   >
-    <main class="bg-[#a0df6a] py-[20px] px-[12px]">
+    <main
+      class="transition-all duration-300 bg-[#a0df6a] rounded max-w-[500px] w-full py-[20px] px-[12px]"
+    >
       <h4 class="text-[40px]">Numbers Facts</h4>
       <p
         class="text-dark text-xs max-w-xl mb-1"
@@ -42,14 +44,13 @@
 
       <div
         id="facts"
-        cl
         class="mt-4 flex gap-4 transition-all duration-300 animate-ease-in"
       >
         <h3>Number Facts</h3>
         <p
           id="factsout"
           style="font-family: Poppins, sans-serif"
-          class="text-blue-500 text-base max-w-xl"
+          class="text-blue-500 text-base max-w-xl transition-all duration-300"
         ></p>
       </div>
     </main>

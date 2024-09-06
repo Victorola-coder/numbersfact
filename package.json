@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve  --mode=development --open",
-    "build": "export NODE_ENV=production && webpack"
+    "build": "echo 'Building webpack dist folder' && rm -rf dist && webpack --mode production --env production"
   },
   "keywords": [],
   "author": "",
