@@ -1,3 +1,5 @@
+import "./styles.css";
+
 let fact = document.querySelector("#facts");
 let factInput = document.querySelector("#factInput");
 let factOutput = document.querySelector("#factsout");
