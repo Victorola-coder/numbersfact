@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 
 let fact = document.querySelector("#facts");
 let factInput = document.querySelector("#factInput");

@@ -4,12 +4,17 @@
   "description": "Trying out the number API, would add  more features later",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve  --mode=development --open",
+    "build": "export NODE_ENV=production && webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-loader": "^9.1.3",
     "css-loader": "^7.1.2",
     "postcss": "^8.4.45",
     "postcss-loader": "^8.1.1",
