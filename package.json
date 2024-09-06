@@ -1,0 +1,15 @@
+{
+  "name": "numbersfact",
+  "version": "1.0.0",
+  "description": "Trying out the number API, would add  more features later",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
